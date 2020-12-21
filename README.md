@@ -42,12 +42,12 @@ The two visualizations consist of stars resizing and rotating the the spectrum o
 
 # References
 
-[1] https://www.youtube.com/watch?v=_QajrabyTJc&t=1066s
-[2] https://www.youtube.com/watch?v=Y37-gB83HKE&t=458s&ab_channel=javidx9
-[3] https://www.youtube.com/watch?v=_yf5vzZ2sYE
+[1] https://www.youtube.com/watch?v=_QajrabyTJc&t=1066s 
+[2] https://www.youtube.com/watch?v=Y37-gB83HKE&t=458s&ab_channel=javidx9 
+[3] https://www.youtube.com/watch?v=_yf5vzZ2sYE 
 
-'Game Engines Examples 2020' project on Github
-https://github.com/skooter500/GE1-2020-2021/tree/master/Game%20Engines%20Examples%202020
+'Game Engines Examples 2020' project on Github 
+https://github.com/skooter500/GE1-2020-2021/tree/master/Game%20Engines%20Examples%202020 
 
 # What I am most proud of in the assignment
 
@@ -55,4 +55,4 @@ Probably the implementation of the maze. The algorithm itself is not that dificu
 
 # Demo
 
-[![YouTube](https://youtu.be/V6rPB2iACLo)
+https://youtu.be/V6rPB2iACLo
