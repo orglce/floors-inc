@@ -53,6 +53,7 @@ void Start()
         int howMayUnvisitedLeft = howManyCellsX * howManyCellsZ - 1;
         stack.Push(startingCell);
 
+        // Recursive backtracker
         while (true)
         {
                 Cell currentCell = stack.Peek();
@@ -125,7 +126,6 @@ void Start()
                         break;
         }
         RenderMaze(cells, size);
-
 }
 
 void RenderMaze(Cell[,] cells, Vector3 size)

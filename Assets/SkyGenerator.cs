@@ -37,12 +37,14 @@ void Update()
 {
         if (MusicVolume.isMusicPlaying)
         {
-                foreach (GameObject star in stars)
+                for (int i = 0; i < stars.Count; i++)
                 {
+                        GameObject star = stars[i];
                         Vector3 lscale = star.transform.localScale;
-                        float size = Mathf.Lerp(lscale.y, 1 + (Mathf.Abs((int)Mathf.RoundToInt(UnityEngine.Random.Range(0, 2))) * 30), Time.deltaTime * 20);
+                        float size = Mathf.Lerp(lscale.y, AudioAnalyzer.spectrum[(int)Mathf.RoundToInt(UnityEngine.Random.Range(0, AudioAnalyzer.spectrum.Length-1))] * 3000, Time.deltaTime * 20);
                         star.transform.localScale = new Vector3(size, size, size);
                 }
+
                 foreach (GameObject i in stars)
                 {
                         if (AudioAnalyzer.bands[1]*100 > 3)
